@@ -22,6 +22,7 @@ public class A1Novice {
 				String itemName = scan.next();
 				double price = scan.nextDouble();
 				totalCost = totalCost + quan * price;
+				String.format("%.2f", totalCost);
 			}
 		System.out.println(first.charAt(0) + ". " + last + ": " + totalCost);
 	
